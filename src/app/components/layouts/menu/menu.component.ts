@@ -59,43 +59,38 @@ export class MenuComponent implements OnInit {
             routerLink:'signal-ejemplo2'
 
           },
-
           {
 
-            label: 'UI Kit',
+            label: 'Ejemplo Singal 3',
 
-            icon: 'pi pi-pencil'
+            icon: 'pi pi-server',
+            routerLink:'signal-ejemplo3'
 
           },
-
           {
 
-            label: 'Templates',
+            label: 'Ejemplo Singal 4',
 
-            icon: 'pi pi-palette',
+            icon: 'pi pi-server',
+            routerLink:'signal-ejemplo4'
 
-            items: [
+          },
+          {
 
-            {
+            label: 'Ejemplo Singal 5',
 
-              label: 'Apollo',
+            icon: 'pi pi-server',
+            routerLink:'signal-ejemplo5'
 
-              icon: 'pi pi-palette'
+          },
+          {
 
-            },
+            label: 'Ejemplo Singal 6',
 
-            {
+            icon: 'pi pi-server',
+            routerLink:'signal-ejemplo6'
 
-              label: 'Ultima',
-
-              icon: 'pi pi-palette'
-
-            }
-
-          ]
-
-        }
-
+          },
       ]
 
       },
